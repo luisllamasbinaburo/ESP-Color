@@ -473,7 +473,7 @@ namespace ESP_Color
 			return hsl;
 		}
 
-		String& ToHex(std::uint8_t r, std::uint8_t g, std::uint8_t b)
+		String ToHex(std::uint8_t r, std::uint8_t g, std::uint8_t b)
 		{
 			char hexArray[6] = { 0 };
 			sprintf(hexArray, "%02X%02X%02X", R_Byte(), G_Byte(), B_Byte());
