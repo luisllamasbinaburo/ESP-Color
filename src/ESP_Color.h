@@ -13,7 +13,7 @@ You should have received a copy of the GNU Affero General Public License along w
 #ifndef _ESP_COLOR_H_
 #define _ESP_COLOR_H_
 
-#define _ESP_COLOR_VERSION_ "1.0.0"
+#define _ESP_COLOR_VERSION_ "1.0.1"
 
 #include <cstddef>
 #include <cstdint>
