@@ -227,7 +227,7 @@ namespace ESP_Color
 
 		static Color FromHsv(const HSVf hsv, const float alpha = 1.0f)
 		{
-			return FromHsv(hsv.V, hsv.S, hsv.V, alpha);
+			return FromHsv(hsv.H, hsv.S, hsv.V, alpha);
 		}
 
 		static Color FromHsv(const float hue, const float saturation, const float value, const float alpha = 1.0)
